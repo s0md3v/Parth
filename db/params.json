@@ -1,0 +1,641 @@
+{
+    "file": [
+        "lfi",
+        "open_redirect",
+        "ssrf"
+    ],
+    "document": [
+        "lfi",
+        "ssrf"
+    ],
+    "folder": [
+        "lfi",
+        "open_redirect",
+        "ssrf"
+    ],
+    "root": [
+        "lfi",
+        "ssrf"
+    ],
+    "path": [
+        "lfi",
+        "open_redirect",
+        "ssrf"
+    ],
+    "pg": [
+        "lfi",
+        "ssrf"
+    ],
+    "style": [
+        "lfi",
+        "ssrf"
+    ],
+    "pdf": [
+        "lfi"
+    ],
+    "template": [
+        "lfi",
+        "ssti"
+    ],
+    "php_path": [
+        "lfi",
+        "ssrf"
+    ],
+    "doc": [
+        "lfi",
+        "ssrf"
+    ],
+    "page": [
+        "lfi",
+        "xss",
+        "ssrf"
+    ],
+    "name": [
+        "lfi",
+        "xss",
+        "sqli",
+        "ssti"
+    ],
+    "cat": [
+        "lfi"
+    ],
+    "dir": [
+        "lfi",
+        "rce",
+        "open_redirect",
+        "ssrf"
+    ],
+    "action": [
+        "lfi"
+    ],
+    "board": [
+        "lfi"
+    ],
+    "date": [
+        "lfi"
+    ],
+    "detail": [
+        "lfi"
+    ],
+    "download": [
+        "lfi",
+        "rce"
+    ],
+    "prefix": [
+        "lfi"
+    ],
+    "include": [
+        "lfi"
+    ],
+    "inc": [
+        "lfi"
+    ],
+    "locate": [
+        "lfi"
+    ],
+    "show": [
+        "lfi",
+        "open_redirect",
+        "ssrf"
+    ],
+    "site": [
+        "lfi",
+        "open_redirect",
+        "ssrf"
+    ],
+    "type": [
+        "lfi",
+        "xss"
+    ],
+    "view": [
+        "lfi",
+        "open_redirect",
+        "xss",
+        "sqli",
+        "ssrf",
+        "ssti"
+    ],
+    "content": [
+        "lfi",
+        "ssti"
+    ],
+    "layout": [
+        "lfi"
+    ],
+    "mod": [
+        "lfi"
+    ],
+    "conf": [
+        "lfi"
+    ],
+    "daemon": [
+        "rce"
+    ],
+    "upload": [
+        "rce"
+    ],
+    "log": [
+        "rce"
+    ],
+    "ip": [
+        "rce"
+    ],
+    "cli": [
+        "rce"
+    ],
+    "cmd": [
+        "rce"
+    ],
+    "exec": [
+        "rce",
+        "ssrf"
+    ],
+    "command": [
+        "rce"
+    ],
+    "execute": [
+        "rce",
+        "ssrf"
+    ],
+    "ping": [
+        "rce"
+    ],
+    "query": [
+        "rce",
+        "xss",
+        "sqli"
+    ],
+    "jump": [
+        "rce"
+    ],
+    "code": [
+        "rce"
+    ],
+    "reg": [
+        "rce"
+    ],
+    "do": [
+        "rce"
+    ],
+    "func": [
+        "rce"
+    ],
+    "arg": [
+        "rce"
+    ],
+    "option": [
+        "rce"
+    ],
+    "load": [
+        "rce",
+        "ssrf"
+    ],
+    "process": [
+        "rce",
+        "sqli"
+    ],
+    "step": [
+        "rce"
+    ],
+    "read": [
+        "rce"
+    ],
+    "function": [
+        "rce"
+    ],
+    "req": [
+        "rce"
+    ],
+    "feature": [
+        "rce"
+    ],
+    "exe": [
+        "rce"
+    ],
+    "module": [
+        "rce"
+    ],
+    "payload": [
+        "rce"
+    ],
+    "run": [
+        "rce"
+    ],
+    "print": [
+        "rce"
+    ],
+    "callback": [
+        "open_redirect",
+        "xss",
+        "ssrf"
+    ],
+    "checkout": [
+        "open_redirect"
+    ],
+    "checkout_url": [
+        "open_redirect"
+    ],
+    "continue": [
+        "open_redirect",
+        "ssrf"
+    ],
+    "data": [
+        "open_redirect",
+        "ssrf"
+    ],
+    "dest": [
+        "open_redirect",
+        "ssrf"
+    ],
+    "destination": [
+        "open_redirect"
+    ],
+    "domain": [
+        "open_redirect",
+        "ssrf"
+    ],
+    "feed": [
+        "open_redirect",
+        "ssrf"
+    ],
+    "file_name": [
+        "open_redirect"
+    ],
+    "file_url": [
+        "open_redirect"
+    ],
+    "folder_url": [
+        "open_redirect"
+    ],
+    "forward": [
+        "open_redirect"
+    ],
+    "from_url": [
+        "open_redirect"
+    ],
+    "go": [
+        "open_redirect"
+    ],
+    "goto": [
+        "open_redirect"
+    ],
+    "host": [
+        "open_redirect",
+        "ssrf"
+    ],
+    "html": [
+        "open_redirect",
+        "ssrf"
+    ],
+    "image_url": [
+        "open_redirect"
+    ],
+    "img_url": [
+        "open_redirect"
+    ],
+    "load_file": [
+        "open_redirect"
+    ],
+    "load_url": [
+        "open_redirect"
+    ],
+    "login_url": [
+        "open_redirect"
+    ],
+    "logout": [
+        "open_redirect"
+    ],
+    "navigation": [
+        "open_redirect",
+        "ssrf"
+    ],
+    "next": [
+        "open_redirect",
+        "ssrf"
+    ],
+    "next_page": [
+        "open_redirect"
+    ],
+    "Open": [
+        "open_redirect"
+    ],
+    "out": [
+        "open_redirect",
+        "ssrf"
+    ],
+    "page_url": [
+        "open_redirect"
+    ],
+    "port": [
+        "open_redirect",
+        "ssrf"
+    ],
+    "redir": [
+        "open_redirect"
+    ],
+    "redirect": [
+        "open_redirect",
+        "ssrf",
+        "ssti"
+    ],
+    "redirect_to": [
+        "open_redirect"
+    ],
+    "redirect_uri": [
+        "open_redirect"
+    ],
+    "redirect_url": [
+        "open_redirect"
+    ],
+    "reference": [
+        "open_redirect",
+        "ssrf"
+    ],
+    "return": [
+        "open_redirect",
+        "ssrf"
+    ],
+    "return_path": [
+        "open_redirect"
+    ],
+    "return_to": [
+        "open_redirect"
+    ],
+    "returnTo": [
+        "open_redirect"
+    ],
+    "return_url": [
+        "open_redirect"
+    ],
+    "rt": [
+        "open_redirect"
+    ],
+    "rurl": [
+        "open_redirect"
+    ],
+    "target": [
+        "open_redirect"
+    ],
+    "to": [
+        "open_redirect",
+        "ssrf"
+    ],
+    "uri": [
+        "open_redirect",
+        "ssrf"
+    ],
+    "url": [
+        "open_redirect",
+        "xss",
+        "ssrf"
+    ],
+    "val": [
+        "open_redirect",
+        "ssrf"
+    ],
+    "validate": [
+        "open_redirect",
+        "ssrf"
+    ],
+    "window": [
+        "open_redirect",
+        "ssrf"
+    ],
+    "q": [
+        "xss"
+    ],
+    "s": [
+        "xss"
+    ],
+    "search": [
+        "xss",
+        "sqli"
+    ],
+    "lang": [
+        "xss"
+    ],
+    "keyword": [
+        "xss",
+        "sqli"
+    ],
+    "keywords": [
+        "xss"
+    ],
+    "year": [
+        "xss"
+    ],
+    "email": [
+        "xss",
+        "xss"
+    ],
+    "p": [
+        "xss"
+    ],
+    "jsonp": [
+        "xss"
+    ],
+    "api_key": [
+        "xss"
+    ],
+    "api": [
+        "xss"
+    ],
+    "password": [
+        "xss"
+    ],
+    "emailto": [
+        "xss"
+    ],
+    "token": [
+        "xss"
+    ],
+    "username": [
+        "xss"
+    ],
+    "csrf_token": [
+        "xss"
+    ],
+    "unsubscribe_token": [
+        "xss"
+    ],
+    "id": [
+        "xss",
+        "sqli",
+        "ssti"
+    ],
+    "item": [
+        "xss"
+    ],
+    "page_id": [
+        "xss"
+    ],
+    "month": [
+        "xss"
+    ],
+    "immagine": [
+        "xss"
+    ],
+    "list_type": [
+        "xss"
+    ],
+    "terms": [
+        "xss"
+    ],
+    "categoryid": [
+        "xss"
+    ],
+    "key": [
+        "xss"
+    ],
+    "l": [
+        "xss"
+    ],
+    "begindate": [
+        "xss"
+    ],
+    "enddate": [
+        "xss"
+    ],
+    "select": [
+        "sqli"
+    ],
+    "report": [
+        "sqli"
+    ],
+    "role": [
+        "sqli"
+    ],
+    "update": [
+        "sqli"
+    ],
+    "user": [
+        "sqli"
+    ],
+    "sort": [
+        "sqli"
+    ],
+    "where": [
+        "sqli"
+    ],
+    "params": [
+        "sqli"
+    ],
+    "row": [
+        "sqli"
+    ],
+    "table": [
+        "sqli"
+    ],
+    "from": [
+        "sqli"
+    ],
+    "sel": [
+        "sqli"
+    ],
+    "results": [
+        "sqli"
+    ],
+    "sleep": [
+        "sqli"
+    ],
+    "fetch": [
+        "sqli"
+    ],
+    "order": [
+        "sqli"
+    ],
+    "column": [
+        "sqli"
+    ],
+    "field": [
+        "sqli"
+    ],
+    "delete": [
+        "sqli",
+        "ssrf"
+    ],
+    "string": [
+        "sqli"
+    ],
+    "number": [
+        "sqli"
+    ],
+    "filter": [
+        "sqli"
+    ],
+    "access": [
+        "ssrf"
+    ],
+    "admin": [
+        "ssrf"
+    ],
+    "dbg": [
+        "ssrf"
+    ],
+    "debug": [
+        "ssrf"
+    ],
+    "edit": [
+        "ssrf"
+    ],
+    "grant": [
+        "ssrf"
+    ],
+    "test": [
+        "ssrf"
+    ],
+    "alter": [
+        "ssrf"
+    ],
+    "clone": [
+        "ssrf"
+    ],
+    "create": [
+        "ssrf"
+    ],
+    "disable": [
+        "ssrf"
+    ],
+    "enable": [
+        "ssrf"
+    ],
+    "make": [
+        "ssrf"
+    ],
+    "modify": [
+        "ssrf"
+    ],
+    "rename": [
+        "ssrf"
+    ],
+    "reset": [
+        "ssrf"
+    ],
+    "shell": [
+        "ssrf"
+    ],
+    "toggle": [
+        "ssrf"
+    ],
+    "adm": [
+        "ssrf"
+    ],
+    "cfg": [
+        "ssrf"
+    ],
+    "open": [
+        "ssrf"
+    ],
+    "img": [
+        "ssrf"
+    ],
+    "filename": [
+        "ssrf"
+    ],
+    "preview": [
+        "ssti"
+    ],
+    "activity": [
+        "ssti"
+    ]
+}
