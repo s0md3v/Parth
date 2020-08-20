@@ -43,6 +43,11 @@ This option will write all the parameter names found in a file with name `params
 ```
 python3 parth.py -pt example.com
 ```
+### JSON Output
+The following command will save the result as a JSON object in the specified file.
+```
+python3 parth.py -t example.com -o example.json
+```
 
 ## Credits
 The database of parameter names and the risks associated with them is mainly created from the public work of various people of the community.
