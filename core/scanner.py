@@ -1,8 +1,9 @@
 import json
+import sys
 
 from core.utils import extract_params
 
-with open('./db/params.json') as f:
+with open(sys.path[0] + '/db/params.json','r') as f:
     param_rules = json.load(f)
 
 
