@@ -20,7 +20,7 @@
 ![demo](https://i.ibb.co/6wbY7fT/Screenshot-2020-08-19-22-17-19.png)
 
 ## Introduction
-Some HTTP parameter names are more commonly associated with one functionality than the others. For example, the parameter `?url=` usually contains URLs as the value and hence often falls victim to file inclusion, open redirect and SSRF attacks. Parth can go through your burp history, a list of URLs or it's own disocovered URLs to find such parameter names and the risks commonly associated with them. Parth is designed to aid web security testing by helping in prioritization of components for testing.
+Some HTTP parameter names are more commonly associated with one functionality than the others. For example, the parameter `?url=` usually contains URLs as the value and hence often falls victim to file inclusion, open redirect and SSRF attacks. Parth can go through your burp history, a list of URLs or it's own discovered URLs to find such parameter names and the risks commonly associated with them. Parth is designed to aid web security testing by helping in prioritization of components for testing.
 
 ## Usage
 ### Import targets from a file
