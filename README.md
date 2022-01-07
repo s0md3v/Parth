@@ -50,4 +50,4 @@ python3 parth.py -t example.com -o example.json
 ```
 
 ## Credits
-The database of parameter names and the risks associated with them is mainly created from the public work of various people of the community such as @Jhaddix.
+The database of parameter names and the risks associated with them is mainly created from the public work of various people of the community such as [@Jhaddix](https://twitter.com/Jhaddix).
