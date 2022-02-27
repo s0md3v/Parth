@@ -23,11 +23,14 @@
 Some HTTP parameter names are more commonly associated with one functionality than the others. For example, the parameter `?url=` usually contains URLs as the value and hence often falls victim to file inclusion, open redirect and SSRF attacks. Parth can go through your burp history, a list of URLs or it's own discovered URLs to find such parameter names and the risks commonly associated with them. Parth is designed to aid web security testing by helping in prioritization of components for testing.
 
 ## Usage
+**Installation:** `pip3 install parth`
+
 ### Import targets from a file
 This option works for all 3 supported import types: Burp Suite history, newline delimited text file or a HTTP request text file.
 ```
 parth -i example.history
 ```
+
 ### Import targets from stdin
 ```
 cat urls | parth
@@ -38,6 +41,7 @@ cat urls | parth --pipe xss
 ```
 
 **Supported Issues:** `lfi, ssrf, sqli, xss, open_redirect, rce`
+
 
 ### Find URLs for a domain
 This option will make use of CommonCrawl, Open Threat Exchange and Waybackmachine to find URLs of the target domain.
