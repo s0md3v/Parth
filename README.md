@@ -26,27 +26,38 @@ Some HTTP parameter names are more commonly associated with one functionality th
 ### Import targets from a file
 This option works for all 3 supported import types: Burp Suite history, newline delimited text file or a HTTP request text file.
 ```
-python3 parth.py -i example.history
+parth -i example.history
 ```
+### Import targets from stdin
+```
+cat urls | parth
+```
+An exclusive option `--pipe` is available when importing targets from stdin. It can be used to output URLs vulnerable to a specific vulnerabily.
+```
+cat urls | parth --pipe xss
+```
+
+**Supported Issues:** `lfi, ssrf, sqli, xss, open_redirect, rce`
+
 ### Find URLs for a domain
 This option will make use of CommonCrawl, Open Threat Exchange and Waybackmachine to find URLs of the target domain.
 ```
-python3 parth.py -t example.com
+parth -t example.com
 ```
 ### Ignore duplicate parameter names
 Same parameter names across all URLs are ignored.
 ```
-python3 parth.py -ut example.com
+parth -ut example.com
 ```
 ### Save parameter names
 This option will write all the parameter names found in a file with name `params-{target}.txt` for later use.
 ```
-python3 parth.py -pt example.com
+parth -pt example.com
 ```
 ### JSON Output
 The following command will save the result as a JSON object in the specified file.
 ```
-python3 parth.py -t example.com -o example.json
+parth -t example.com -o example.json
 ```
 
 ## Credits
