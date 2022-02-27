@@ -30,6 +30,7 @@ This option works for all 3 supported import types: Burp Suite history, newline 
 ```
 parth -i example.history
 ```
+
 ### Import targets from stdin
 ```
 cat urls | parth
@@ -39,7 +40,8 @@ An exclusive option `--pipe` is available when importing targets from stdin. It 
 cat urls | parth --pipe xss
 ```
 
-Supported Issues: `lfi, ssrf, sqli, xss, open_redirect, rce`
+**Supported Issues:** `lfi, ssrf, sqli, xss, open_redirect, rce`
+
 
 ### Find URLs for a domain
 This option will make use of CommonCrawl, Open Threat Exchange and Waybackmachine to find URLs of the target domain.

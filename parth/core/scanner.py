@@ -1,11 +1,8 @@
 import json
 import sys
 
-from core.utils import extract_params
-
-with open(sys.path[0] + '/db/params.json','r') as f:
-    param_rules = json.load(f)
-
+from .utils import extract_params
+from .param_map import param_rules
 
 def scanner(requests, save_params, dupes):
     """

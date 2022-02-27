@@ -1,4 +1,4 @@
-{
+param_rules = {
     "file": [
         "lfi",
         "open_redirect",

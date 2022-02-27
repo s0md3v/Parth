@@ -1,6 +1,6 @@
 import re
 
-from core.utils import reader, parse_request, extract_params
+from .utils import reader, parse_request, extract_params
 
 burp_regex = re.compile(r'''(?m)^    <url><!\[CDATA\[(.+?)\]\]></url>
     <host ip="[^"]*">[^<]+</host>
