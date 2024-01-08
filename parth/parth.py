@@ -28,7 +28,7 @@ args = parser.parse_args() # arguments to be parsed
 if args.input_file or args.host:
 	print('''%s      __
      /_/ _   _ _/_ /_
-    /   (_\\ /  /  / / {%s%s%s}%s
+    /_/  (_\\ /  /  / / {%s%s%s}%s
 	''' % (green, white, __import__('parth').__version__, green, end))
 
 def fetch_urls(host):
